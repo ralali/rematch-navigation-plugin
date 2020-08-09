@@ -1,0 +1,46 @@
+{
+  "name": "@ralali/rematch-navigation-plugin",
+  "version": "1.0.0",
+  "description": "React Navigation 5 plugin for Rematch",
+  "author": "@bobbyecho",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "react-native": "src/index.ts",
+  "types": "lib/typescript/src/index.d.ts",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "prepare": "bob build"
+  },
+  "devDependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/bob": "^0.16.2",
+    "@types/react": "^16.9.45",
+    "@types/react-native": "^0.63.6",
+    "@react-navigation/native": "^5.7.3",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {
+    "@react-native-community/async-storage": ">=1.11.0",
+    "@react-navigation/native": ">=5.0.0",
+    "@rematch/core": ">=1.0.0",
+    "react": ">=16.7.0-alpha",
+    "react-native": ">=0.59.0"
+  },
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  }
+}
