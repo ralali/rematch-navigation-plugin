@@ -84,6 +84,7 @@ function navigateWithoutComponent() {
 
 | options 	| defaultValue                	| ReturnType 	|
 |---------	|-----------------------------	|--------------	|
+| duration 	| 1500    	                    | number 	    |
 | message 	| Press once again to exit    	| string 	    |
 | handler 	| () => BackHandler.exitApp() 	| void   	    |
 

@@ -27,7 +27,7 @@ function useExitHandler(options: ExitHandlerOptions = {}): void {
 
             setTimeout(() => {
               decremental.current += 1;
-            }, 1500);
+            }, duration);
 
             return decremental.current === 0;
           }
