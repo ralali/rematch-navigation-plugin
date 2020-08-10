@@ -1,6 +1,5 @@
 # @ralali/rematch-navigation-plugin
-
-[![MIT License][license-badge]][license]
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 React Navigation 5 plugin for Rematch
 
