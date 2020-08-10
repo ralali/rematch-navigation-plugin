@@ -179,7 +179,9 @@ import { setCurrentScreen } from 'your/helpers';
 const { subscribeState, routeNameRef } = useScreenAnalytics((route) => {
     const { resultName, closestRoute } = route;
     
-    // use your analytics function here
+    /**
+     * use your analytics function here
+    /*
     setCurrentScreen(resultName);
 });
 
