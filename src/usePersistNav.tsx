@@ -1,6 +1,6 @@
 import React from 'react';
 import { Linking, Platform } from 'react-native';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { PersistNavProps, UsePersistNav, NavigationState, InitialState } from './types';
 
 const IS_DEV = !__DEV__;
