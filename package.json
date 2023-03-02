@@ -32,7 +32,7 @@
     "typescript": "^3.9.7"
   },
   "peerDependencies": {
-    "@react-native-community/async-storage": ">=1.11.0",
+    "@react-native-async-storage/async-storage": ">=1.11.0",
     "@react-navigation/native": ">=5.0.0",
     "@rematch/core": ">=1.0.0",
     "react": ">=16.7.0-alpha",

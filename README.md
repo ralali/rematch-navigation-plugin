@@ -16,7 +16,7 @@ npm i @ralali/rematch-navigation-plugin
 
 - react >= 16.7.0-alpha
 - react native ( recommend >= 0.55.0 )
-- @react-native-community/async-storage>=1.11.0
+- @react-native-async-storage/async-storage>=1.11.0
 - @react-navigation/native >=5.0.0
 - @rematch/core >= 1.0.0
 
